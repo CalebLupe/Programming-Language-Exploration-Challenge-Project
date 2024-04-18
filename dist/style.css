@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia;
+    background-color: rgb(0, 111, 113);
+    color: rgb(162, 119, 82);
+    text-align: center; /* Center align text */
+}
+
+.app {
+    width: 400px; /* Adjust container width */
+    margin: 50px auto; /* Center the container horizontally */
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    width: calc(33.33% - 5px); /* Adjust width to accommodate margin-right */
+    padding: 10px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: rgb(162, 119, 82);
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px; /* Add margin to create space between buttons */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align list items to the left */
+}
+
+li {
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+}
+
+span {
+    flex-grow: 1; /* Allow the task content to grow and take up remaining space */
+}
+
+.completion-container {
+    margin-left: auto; /* Move to the right */
+    margin-right: 10px; /* Add some space between the elements */
+    min-width: 120px; /* Ensure a minimum width for the completion container */
+}
+
+/* Add styles for the download button */
+button.download-button {
+    background-color: rgb(162, 119, 82);
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}

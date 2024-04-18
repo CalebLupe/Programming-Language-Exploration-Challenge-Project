@@ -1,0 +1,16 @@
+{
+  "name": "my-typescript-project",
+  "version": "1.0.0",
+  "description": "A simple TypeScript project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./dist -o",
+    "build": "tsc"
+  },
+  "author": "Caleb Lupinacci",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.x",
+    "http-server": "^0.x"
+  }
+}
